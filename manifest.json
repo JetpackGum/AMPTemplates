@@ -1,8 +1,10 @@
 {
-	"id": "0105d6e5-b297-4e06-a9f8-e7e0169ab582",
-	"authors": ["JetpackGum, Limited Intelligence", "AMP Community"],
-	"origin": "https://github.com/JetpackGum",
-	"url": "https://github.com/JetpackGum",
-	"imagefile": "",
-	"prefix": "ATEST-"
+    "id": "f256c6c5-fe0f-4060-96c0-3601e7f20c2d",
+    "authors": [
+        "JetpackGum - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/JetpackGum - Made with AMP Config Generator/AMPTemplates.git",
+    "url": "https://github.com/JetpackGum - Made with AMP Config Generator/AMPTemplates",
+    "imagefile": "",
+    "prefix": "JetpackGum - Made with AMP Config Generator"
 }
