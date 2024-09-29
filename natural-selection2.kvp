@@ -1,4 +1,4 @@
-Meta.DisplayName=Natural Selection 2 Server
+Meta.DisplayName=Natural Selection 2
 Meta.Description=Configuration for a Natural Selection 2 Dedicated Server
 Meta.Arch=x86_64
 Meta.Author= - Made with AMP Config Generator
@@ -13,7 +13,7 @@ Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQuery
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
-App.DisplayName=Natural Selection 2 Server
+App.DisplayName=Natural Selection 2
 App.CommandLineArgs=-name "{{ServerName}}" -port {{App.Ports.GamePort1}} -maxplayers {{MaxPlayers}} -adminpassword "{{AdminPassword}}" -mapcycle "{{MapCycle}}" -mods "{{Mods}}"
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
