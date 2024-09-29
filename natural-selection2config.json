@@ -1,0 +1,157 @@
+{
+    "App_AdminMethod": "STDIO",
+    "App_HasReadableConsole": true,
+    "App_HasWritableConsole": true,
+    "App_DisplayName": "Natural Selection 2 Server",
+    "App_CommandLineArgs": "-name \"{{ServerName}}\" -port {{App.Ports.GamePort1}} -maxplayers {{MaxPlayers}} -adminpassword \"{{AdminPassword}}\" -mapcycle \"{{MapCycle}}\" -mods \"{{Mods}}\"",
+    "App_WorkingDir": "serverfiles",
+    "App_ExecutableWin": "serverfiles\\server.exe",
+    "App_ExecutableLinux": "serverfiles/server_linux",
+    "App_RapidStartup": false,
+    "App_ApplicationReadyMode": "Immediate",
+    "App_ExitMethod": "OS_CLOSE",
+    "App_ExitString": "stop",
+    "App_ExitTimeout": 30,
+    "App_SupportsLiveSettingsChanges": false,
+    "App_ApplicationIPBinding": "0.0.0.0",
+    "App_AdminPortRef": "RemoteAdminPort",
+    "App_PrimaryApplicationPortRef": "GamePort1",
+    "App_MaxUsers": 16,
+    "App_UseRandomAdminPassword": false,
+    "App_RemoteAdminPassword": "{{AdminPassword}}",
+    "App_SteamUpdateAnonymousLogin": true,
+    "App_SteamWorkshopDownloadLocation": "{{BaseDirectory}}serverfiles",
+    "App_SupportsUniversalSleep": false,
+    "_AppSettings": [
+      {
+        "Key": "ServerName",
+        "DisplayName": "Server Name",
+        "Description": "The name of your server as it will appear in the server browser.",
+        "Type": "String",
+        "Default": "My NS2 Server"
+      },
+      {
+        "Key": "MaxPlayers",
+        "DisplayName": "Max Players",
+        "Description": "Maximum number of players allowed on the server.",
+        "Type": "Integer",
+        "Default": 16
+      },
+      {
+        "Key": "AdminPassword",
+        "DisplayName": "Admin Password",
+        "Description": "Password for server administrators to gain elevated privileges.",
+        "Type": "String",
+        "Default": "myadminpassword"
+      },
+      {
+        "Key": "ServerPassword",
+        "DisplayName": "Server Password",
+        "Description": "Password required to join the server. Leave blank for a public server.",
+        "Type": "String",
+        "Default": ""
+      },
+      {
+        "Key": "TickRate",
+        "DisplayName": "Tick Rate",
+        "Description": "Server tick rate in updates per second.",
+        "Type": "Integer",
+        "Default": 30
+      },
+      {
+        "Key": "GameMode",
+        "DisplayName": "Game Mode",
+        "Description": "The default game mode the server will run.",
+        "Type": "String",
+        "Default": "ns2"
+      },
+      {
+        "Key": "FriendlyFire",
+        "DisplayName": "Friendly Fire",
+        "Description": "Enable or disable friendly fire between teammates.",
+        "Type": "Boolean",
+        "Default": false
+      },
+      {
+        "Key": "MapCycle",
+        "DisplayName": "Map Cycle",
+        "Description": "A list of maps that the server will rotate through.",
+        "Type": "List",
+        "Default": ["ns2_summit", "ns2_tram", "ns2_veil", "ns2_descent"]
+      },
+      {
+        "Key": "MapCycleMode",
+        "DisplayName": "Map Cycle Mode",
+        "Description": "Determines the order of map rotation.",
+        "Type": "String",
+        "Default": "sequential",
+        "Options": ["sequential", "random"]
+      },
+      {
+        "Key": "Mods",
+        "DisplayName": "Mods",
+        "Description": "Workshop IDs of mods to load on the server.",
+        "Type": "List",
+        "Default": ["123456", "789012"]
+      },
+      {
+        "Key": "BandwidthLimit",
+        "DisplayName": "Bandwidth Limit",
+        "Description": "Maximum bandwidth usage in kilobytes per second.",
+        "Type": "Integer",
+        "Default": 51200
+      },
+      {
+        "Key": "ServerRate",
+        "DisplayName": "Server Rate",
+        "Description": "Data rate per client in bytes per second.",
+        "Type": "Integer",
+        "Default": 20000
+      },
+      {
+        "Key": "EnableLogging",
+        "DisplayName": "Enable Logging",
+        "Description": "Toggle server logging.",
+        "Type": "Boolean",
+        "Default": true
+      },
+      {
+        "Key": "LogFilePath",
+        "DisplayName": "Log File Path",
+        "Description": "Directory path where log files will be stored.",
+        "Type": "String",
+        "Default": "logs/server.log"
+      },
+      {
+        "Key": "RCONPassword",
+        "DisplayName": "RCON Password",
+        "Description": "Password for RCON authentication.",
+        "Type": "String",
+        "Default": "myrconpassword"
+      },
+      {
+        "Key": "AutoUpdate",
+        "DisplayName": "Auto Update",
+        "Description": "Enable automatic server updates when new versions are released.",
+        "Type": "Boolean",
+        "Default": true
+      },
+      {
+        "Key": "ServerDescription",
+        "DisplayName": "Server Description",
+        "Description": "A brief description of your server displayed in the server browser.",
+        "Type": "String",
+        "Default": "Welcome to My NS2 Server!"
+      },
+      {
+        "Key": "MOTD",
+        "DisplayName": "Message of the Day (MOTD)",
+        "Description": "A message displayed to players upon joining the server.",
+        "Type": "String",
+        "Default": "Have fun and play fair!"
+      }
+    ],
+    "App_Ports": "@IncludeJson[ports.json]",
+    "App_UpdateSources": "@IncludeJson[updates.json]"
+  }
+  

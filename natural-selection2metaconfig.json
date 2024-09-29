@@ -1,0 +1,21 @@
+{
+    "Meta_DisplayName": "Natural Selection 2 Server",
+    "Meta_Description": "Configuration for a Natural Selection 2 Dedicated Server",
+    "Meta_Author": " - Made with AMP Config Generator",
+    "Meta_URL": "",
+    "Meta_Arch": "x86_64",
+    "Meta_MinAMPVersion": "2.4.6.6",
+    "Meta_SpecificDockerImage": "",
+    "Meta_DockerRequired": "False",
+    "Meta_ContainerPolicy": "Supported",
+    "Meta_ContainerPolicyReason": "",
+    "Meta_Prerequsites": [],
+    "Meta_EndpointURIFormat": "steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}",
+    "Meta_OS": 3,
+    "Meta_ConfigManifest": "config.json",
+    "Meta_MetaConfigManifest": "metaconfig.json",
+    "Meta_ConfigRoot": ".kvp",
+    "Meta_DisplayImageSource": "url:",
+    "_Meta_GithubOrigin": "https://github.com/CubeCoders/AMPTemplates.git",
+    "_Meta_GithubURL": "https://github.com/CubeCoders/AMPTemplates"
+  }
