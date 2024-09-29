@@ -15,7 +15,7 @@
     },
     {
         "Protocol": "UDP",
-        "Port": 27017,
+        "Port": "8766",
         "Name": "Main Game Port",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"

@@ -1,9 +1,8 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
+	"id": "0105d6e5-b297-4e06-a9f8-e7e0169ab582",
 	"authors": ["JetpackGum, Limited Intelligence", "AMP Community"],
-	"origin": "https://github.com/JetpackGum/AMPTemplates.git",
-	"url": "https://github.com/JetpackGum/AMPTemplates",
+	"origin": "https://github.com/JetpackGum",
+	"url": "https://github.com/JetpackGums",
 	"imagefile": "",
-	"prefix": "TESTING - ",
-	"repotype": "AppTemplates"
+	"prefix": "TEST-"
 }
