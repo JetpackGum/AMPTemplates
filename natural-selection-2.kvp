@@ -4,6 +4,7 @@ Meta.Arch=x86_64
 Meta.Author=JetpackGum - Made with AMP Config Generator
 Meta.URL=
 Meta.MinAMPVersion=2.4.6.6
+Meta.AppConfigId="0105d6e5-b297-4e06-a9f8-e7e0169ab582"
 Meta.SpecificDockerImage=
 Meta.DockerRequired=False
 Meta.ContainerPolicy=Supported
