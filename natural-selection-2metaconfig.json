@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "ConfigFile": "MapCycle",
+        "ConfigType": "json",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "ServerAdmin",
+        "ConfigType": "json",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "ServerConfig",
+        "ConfigType": "json",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "BannedPlayers",
+        "ConfigType": "json",
+        "AutoMap": true
+    },
+    {
+        "ConfigFile": "ConsistencyConfig",
+        "ConfigType": "json",
+        "AutoMap": true
+    }
+]
