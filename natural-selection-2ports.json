@@ -2,21 +2,21 @@
     {
         "Protocol": "UDP",
         "Port": 28015,
-        "Name": "Main Game Port",
+        "Name": "gameport",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"
     },
     {
         "Protocol": "UDP",
         "Port": 28016,
-        "Name": "Main Game Port",
+        "Name": "queryport",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"
     },
     {
         "Protocol": "UDP",
         "Port": "8766",
-        "Name": "Main Game Port",
+        "Name": "webadminconsole",
         "Description": "Port used for main game traffic",
         "Ref": "MainGamePort"
     }
