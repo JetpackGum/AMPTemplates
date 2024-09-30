@@ -1,15 +1,5 @@
 [
     {
-        "UpdateStageName": "Install 32-bit Libraries",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "apt-get install speex:i386 libgtk2.0-0:i386 lib32gcc1",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
         "UpdateStageName": "SteamCMD",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
